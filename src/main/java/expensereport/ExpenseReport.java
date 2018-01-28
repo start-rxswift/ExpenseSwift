@@ -63,10 +63,14 @@ public class ExpenseReport {
     }
 
     private void totalUpExpense(Expense expense) {
-        if (expense.type == BREAKFAST || expense.type == DINNER)
+        if (isMeal(expense))
             mealExpenses += expense.amount;
 
         total += expense.amount;
+    }
+
+    private boolean isMeal(Expense expense) {
+        return expense.type == BREAKFAST || expense.type == DINNER;
     }
 
     private void printTotals() {
