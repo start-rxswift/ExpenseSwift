@@ -30,11 +30,10 @@ public class ExpenseReport {
 
     private void printExpenses() {
         for (Expense expense : expenses) {
-            String name = getName(expense);
             printer.print(String.format("%s\t%s\t$%.02f\n",
                     ((expense.type == DINNER && expense.amount > 5000)
                             || (expense.type == BREAKFAST && expense.amount > 1000)) ? "X" : " ",
-                    name, expense.amount / 100.0));
+                    getName(expense), expense.amount / 100.0));
         }
     }
 
