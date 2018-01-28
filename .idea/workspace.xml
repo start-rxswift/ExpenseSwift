@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f51c5b0-34c3-431c-904b-ccf6d97aafd8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/expensereport/BreakfastExpense.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/expensereport/CarRentalExpense.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/expensereport/DinnerExpense.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReporter.java" afterPath="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReporter.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/expensereport/ExpenseReporterTest.java" afterPath="$PROJECT_DIR$/src/test/java/expensereport/ExpenseReporterTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -18,21 +20,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExpenseReporterTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExpenseReporterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/expensereport/ExpenseReporterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-672">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="259">
+              <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExpenseReporter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CarRentalExpense.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/CarRentalExpense.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DinnerExpense.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/DinnerExpense.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpenseReporter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            <state relative-caret-position="405">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="e#1068#1069#0" expanded="true" />
                 <element signature="e#1129#1130#0" expanded="true" />
@@ -57,6 +85,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>addEx</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -79,6 +119,10 @@
         <option value="$PROJECT_DIR$/src/main/java/expensereport/Expense.java" />
         <option value="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java" />
         <option value="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/expensereport/DinnerExpense.java" />
+        <option value="$PROJECT_DIR$/src/main/java/expensereport/BreakfastExpense.java" />
+        <option value="$PROJECT_DIR$/src/main/java/expensereport/CarRentalExpense.java" />
+        <option value="$PROJECT_DIR$/src/test/java/expensereport/ExpenseReporterTest.java" />
       </list>
     </option>
   </component>
@@ -176,6 +220,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="expensereport" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -315,7 +364,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517108470334</updated>
-      <workItem from="1517108471891" duration="3032000" />
+      <workItem from="1517108471891" duration="3391000" />
     </task>
     <task id="LOCAL-00001" summary="불필요 소스 정리">
       <created>1517108493391</created>
@@ -485,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517111273613</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="비지니스 로직을 분리한 클래스를 생성&#10;&#10;Delegate : ExpenseReport&#10; &#10;totalUpExpenses()&#10;totalUpExpense(expense:Expense)&#10;addExpense(expense:Expense)&#10;&#10;expenses:List&lt;Expense&gt;&#9;&#10;total:int&#10;mealExpenses:int">
+      <created>1517111556386</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1517111556386</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -503,7 +559,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3032000" />
+    <option name="totallyTimeSpent" value="3391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="0" />
@@ -580,21 +636,14 @@
     <MESSAGE value="Feature Envy&#10;getName 도 마찬가지다&#10;&#10;Move : getName  &#10;to Expense" />
     <MESSAGE value="Feature Envy&#10;isMeal 도 마찬가지다&#10;&#10;Move : isMeal  &#10;to Expense" />
     <MESSAGE value="ExpenseReport 는 report가 아니고 report를 출력하는 Class의 맞도록 이름을 변경&#10;&#10;Rename : ExpenseReporter" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExpenseReport 는 report가 아니고 report를 출력하는 Class의 맞도록 이름을 변경&#10;&#10;Rename : ExpenseReporter" />
+    <MESSAGE value="비지니스 로직을 분리한 클래스를 생성&#10;&#10;Delegate : ExpenseReport&#10; &#10;totalUpExpenses()&#10;totalUpExpense(expense:Expense)&#10;addExpense(expense:Expense)&#10;&#10;expenses:List&lt;Expense&gt;&#9;&#10;total:int&#10;mealExpenses:int" />
+    <option name="LAST_COMMIT_MESSAGE" value="비지니스 로직을 분리한 클래스를 생성&#10;&#10;Delegate : ExpenseReport&#10; &#10;totalUpExpenses()&#10;totalUpExpense(expense:Expense)&#10;addExpense(expense:Expense)&#10;&#10;expenses:List&lt;Expense&gt;&#9;&#10;total:int&#10;mealExpenses:int" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/expensereport/ExpenseReporterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -624,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="405">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="e#1068#1069#0" expanded="true" />
             <element signature="e#1129#1130#0" expanded="true" />
@@ -634,6 +683,47 @@
             <element signature="e#1257#1258#0" expanded="true" />
             <element signature="e#1291#1292#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/DinnerExpense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/BreakfastExpense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/CarRentalExpense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/expensereport/ExpenseReporterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
