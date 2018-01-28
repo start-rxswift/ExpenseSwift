@@ -58,12 +58,15 @@ public class ExpenseReport {
     }
 
     private void totalUpExpenses() {
-        for (Expense expense : expenses) {
-            if (expense.type == BREAKFAST || expense.type == DINNER)
-                mealExpenses += expense.amount;
+        for (Expense expense : expenses)
+            totalUpExpense(expense);
+    }
 
-            total += expense.amount;
-        }
+    private void totalUpExpense(Expense expense) {
+        if (expense.type == BREAKFAST || expense.type == DINNER)
+            mealExpenses += expense.amount;
+
+        total += expense.amount;
     }
 
     private void printTotals() {

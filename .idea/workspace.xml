@@ -30,13 +30,15 @@
       <file leaf-file-name="ExpenseReport.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="189">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
-                <element signature="e#2029#2030#0" expanded="true" />
-                <element signature="e#2090#2091#0" expanded="true" />
-                <element signature="e#2137#2138#0" expanded="true" />
-                <element signature="e#2174#2175#0" expanded="true" />
+                <element signature="e#2100#2101#0" expanded="true" />
+                <element signature="e#2161#2162#0" expanded="true" />
+                <element signature="e#2208#2209#0" expanded="true" />
+                <element signature="e#2245#2246#0" expanded="true" />
+                <element signature="e#2277#2278#0" expanded="true" />
+                <element signature="e#2311#2312#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -263,7 +265,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517108470334</updated>
-      <workItem from="1517108471891" duration="1953000" />
+      <workItem from="1517108471891" duration="2097000" />
     </task>
     <task id="LOCAL-00001" summary="불필요 소스 정리">
       <created>1517108493391</created>
@@ -377,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517110325315</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="7. 가독성을 위해서 함수 추가 &#10;Extract Method : isOverage &#10;&#10;((expense.type == DINNER &amp;&amp; expense.amount &gt; 5000)&#10;                            || (expense.type == BREAKFAST &amp;&amp; expense.amount &gt; 1000))">
+      <created>1517110462364</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1517110462364</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -392,7 +401,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1953000" />
+    <option name="totallyTimeSpent" value="2097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="0" />
@@ -462,7 +471,8 @@
     <MESSAGE value="7. 조금 더 보기 편하게 하기 위해 print 관련 함수들 정리 &#10;Extract Method : printExpensesAndTotals&#10;&#10;        printHeader();&#10;        printExpenses();&#10;        printTotals();" />
     <MESSAGE value="7. getName &#10;Extract Method : getName&#10;                      &#10;String name = &quot;TILT&quot;;&#10;            switch (expense.type) {&#10;            &#10;            }" />
     <MESSAGE value="7. inline name Local 변수로 선언될 필요가 없다. &#10;inline : getName" />
-    <option name="LAST_COMMIT_MESSAGE" value="7. inline name Local 변수로 선언될 필요가 없다. &#10;inline : getName" />
+    <MESSAGE value="7. 가독성을 위해서 함수 추가 &#10;Extract Method : isOverage &#10;&#10;((expense.type == DINNER &amp;&amp; expense.amount &gt; 5000)&#10;                            || (expense.type == BREAKFAST &amp;&amp; expense.amount &gt; 1000))" />
+    <option name="LAST_COMMIT_MESSAGE" value="7. 가독성을 위해서 함수 추가 &#10;Extract Method : isOverage &#10;&#10;((expense.type == DINNER &amp;&amp; expense.amount &gt; 5000)&#10;                            || (expense.type == BREAKFAST &amp;&amp; expense.amount &gt; 1000))" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -487,13 +497,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="189">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <element signature="e#2029#2030#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2174#2175#0" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2245#2246#0" expanded="true" />
+            <element signature="e#2277#2278#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
           </folding>
         </state>
       </provider>
