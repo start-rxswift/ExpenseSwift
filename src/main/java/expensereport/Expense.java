@@ -9,6 +9,22 @@ public class Expense {
                 || (type == BREAKFAST && amount > 1000);
     }
 
+    String getName() {
+        String name = "TILT";
+        switch (type) {
+            case DINNER:
+                name = "Dinner";
+                break;
+            case BREAKFAST:
+                name = "Breakfast";
+                break;
+            case CAR_RENTAL:
+                name = "Car Rental";
+                break;
+        }
+        return name;
+    }
+
     public enum Type {DINNER, BREAKFAST, CAR_RENTAL}
 
     ;

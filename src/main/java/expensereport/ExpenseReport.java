@@ -32,24 +32,8 @@ public class ExpenseReport {
         for (Expense expense : expenses) {
             printer.print(String.format("%s\t%s\t$%.02f\n",
                     expense.isOverage() ? "X" : " ",
-                    getName(expense), expense.amount / 100.0));
+                    expense.getName(), expense.amount / 100.0));
         }
-    }
-
-    private String getName(Expense expense) {
-        String name = "TILT";
-        switch (expense.type) {
-            case DINNER:
-                name = "Dinner";
-                break;
-            case BREAKFAST:
-                name = "Breakfast";
-                break;
-            case CAR_RENTAL:
-                name = "Car Rental";
-                break;
-        }
-        return name;
     }
 
     private void totalUpExpenses() {
