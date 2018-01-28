@@ -38,7 +38,7 @@ public class ExpenseReport {
                             || (expense.type == BREAKFAST && expense.amount > 1000)) ? "X" : " ",
                     name, expense.amount / 100.0));
         }
-        printTotals(printer, total, mealExpenses);
+        printTotals(printer);
     }
 
     private void totalUpExpenses() {
@@ -50,7 +50,7 @@ public class ExpenseReport {
         }
     }
 
-    private void printTotals(ReportPrinter printer, int total, int mealExpenses) {
+    private void printTotals(ReportPrinter printer) {
         printer.print(String.format("\nMeal expenses $%.02f", mealExpenses / 100.0));
         printer.print(String.format("\nTotal $%.02f", total / 100.0));
     }
