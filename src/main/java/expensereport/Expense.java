@@ -25,6 +25,10 @@ public class Expense {
         return name;
     }
 
+    boolean isMeal() {
+        return type == BREAKFAST || type == DINNER;
+    }
+
     public enum Type {DINNER, BREAKFAST, CAR_RENTAL}
 
     ;
