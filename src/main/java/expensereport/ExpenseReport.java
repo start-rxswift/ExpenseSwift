@@ -9,10 +9,12 @@ import static expensereport.Expense.Type.DINNER;
 
 public class ExpenseReport {
     private List<Expense> expenses = new ArrayList<Expense>();
+    private int total;
+    private int mealExpenses;
 
     public void printReport(ReportPrinter printer) {
-        int total = 0;
-        int mealExpenses = 0;
+        total = 0;
+        mealExpenses = 0;
 
         printHeader(printer);
 
