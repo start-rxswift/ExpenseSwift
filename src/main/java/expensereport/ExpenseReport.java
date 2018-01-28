@@ -11,8 +11,10 @@ public class ExpenseReport {
     private List<Expense> expenses = new ArrayList<Expense>();
     private int total;
     private int mealExpenses;
+    private ReportPrinter printer;
 
     public void printReport(ReportPrinter printer) {
+        this.printer = printer;
         total = 0;
         mealExpenses = 0;
 
