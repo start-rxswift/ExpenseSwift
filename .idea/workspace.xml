@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f51c5b0-34c3-431c-904b-ccf6d97aafd8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/expensereport/Expense.java" afterPath="$PROJECT_DIR$/src/main/java/expensereport/Expense.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java" afterPath="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -30,17 +31,17 @@
       <file leaf-file-name="ExpenseReport.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+            <state relative-caret-position="257">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
-                <element signature="e#1880#1881#0" expanded="true" />
-                <element signature="e#1954#1955#0" expanded="true" />
-                <element signature="e#2185#2186#0" expanded="true" />
-                <element signature="e#2246#2247#0" expanded="true" />
-                <element signature="e#2293#2294#0" expanded="true" />
-                <element signature="e#2330#2331#0" expanded="true" />
-                <element signature="e#2362#2363#0" expanded="true" />
-                <element signature="e#2396#2397#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1761#1762#0" expanded="true" />
+                <element signature="e#1992#1993#0" expanded="true" />
+                <element signature="e#2053#2054#0" expanded="true" />
+                <element signature="e#2100#2101#0" expanded="true" />
+                <element signature="e#2137#2138#0" expanded="true" />
+                <element signature="e#2169#2170#0" expanded="true" />
+                <element signature="e#2203#2204#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,6 +79,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/expensereport/Expense.java" />
       </list>
     </option>
   </component>
@@ -267,7 +269,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517108470334</updated>
-      <workItem from="1517108471891" duration="2170000" />
+      <workItem from="1517108471891" duration="2281000" />
     </task>
     <task id="LOCAL-00001" summary="불필요 소스 정리">
       <created>1517108493391</created>
@@ -395,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517110618280</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="7. 가독성을 위해서 함수 추가 &#10;Extract Method : isMeal &#10;&#10;totalUpExpense 함수 내부의 &#10;expense.type == BREAKFAST || expense.type == DINNER">
+      <created>1517110676725</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1517110676725</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -410,7 +419,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2170000" />
+    <option name="totallyTimeSpent" value="2281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="0" />
@@ -482,7 +491,8 @@
     <MESSAGE value="7. inline name Local 변수로 선언될 필요가 없다. &#10;inline : getName" />
     <MESSAGE value="7. 가독성을 위해서 함수 추가 &#10;Extract Method : isOverage &#10;&#10;((expense.type == DINNER &amp;&amp; expense.amount &gt; 5000)&#10;                            || (expense.type == BREAKFAST &amp;&amp; expense.amount &gt; 1000))" />
     <MESSAGE value="7. 가독성을 위해서 함수 추가 &#10;Extract Method : totalUpExpenses &#10;&#10;totalUpExpenses 함수 내부의 &#10; if (expense.type == BREAKFAST || expense.type == DINNER)&#10;                mealExpenses += expense.amount;&#10;&#10;            total += expense.amount;" />
-    <option name="LAST_COMMIT_MESSAGE" value="7. 가독성을 위해서 함수 추가 &#10;Extract Method : totalUpExpenses &#10;&#10;totalUpExpenses 함수 내부의 &#10; if (expense.type == BREAKFAST || expense.type == DINNER)&#10;                mealExpenses += expense.amount;&#10;&#10;            total += expense.amount;" />
+    <MESSAGE value="7. 가독성을 위해서 함수 추가 &#10;Extract Method : isMeal &#10;&#10;totalUpExpense 함수 내부의 &#10;expense.type == BREAKFAST || expense.type == DINNER" />
+    <option name="LAST_COMMIT_MESSAGE" value="7. 가독성을 위해서 함수 추가 &#10;Extract Method : isMeal &#10;&#10;totalUpExpense 함수 내부의 &#10;expense.type == BREAKFAST || expense.type == DINNER" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -505,19 +515,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/Expense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+        <state relative-caret-position="257">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#1880#1881#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
-            <element signature="e#2185#2186#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2293#2294#0" expanded="true" />
-            <element signature="e#2330#2331#0" expanded="true" />
-            <element signature="e#2362#2363#0" expanded="true" />
-            <element signature="e#2396#2397#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+            <element signature="e#2053#2054#0" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
+            <element signature="e#2169#2170#0" expanded="true" />
+            <element signature="e#2203#2204#0" expanded="true" />
           </folding>
         </state>
       </provider>
