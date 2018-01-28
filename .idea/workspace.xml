@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/expensereport/BreakfastExpense.java" afterPath="$PROJECT_DIR$/src/main/java/expensereport/BreakfastExpense.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/expensereport/CarRentalExpense.java" afterPath="$PROJECT_DIR$/src/main/java/expensereport/CarRentalExpense.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/expensereport/DinnerExpense.java" afterPath="$PROJECT_DIR$/src/main/java/expensereport/DinnerExpense.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/expensereport/Expense.java" afterPath="$PROJECT_DIR$/src/main/java/expensereport/Expense.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,18 +22,18 @@
       <file leaf-file-name="ExpenseReporterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/expensereport/ExpenseReporterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+            <state relative-caret-position="60">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Expense.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Expense.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/Expense.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="210">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -43,11 +42,29 @@
       <file leaf-file-name="BreakfastExpense.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/BreakfastExpense.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
                 <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MockReportPrinter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/expensereport/MockReportPrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,22 +72,37 @@
       <file leaf-file-name="CarRentalExpense.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/CarRentalExpense.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
                 <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DinnerExpense.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DinnerExpense.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/DinnerExpense.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
                 <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,10 +181,10 @@
         <option value="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java" />
         <option value="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReporter.java" />
         <option value="$PROJECT_DIR$/src/test/java/expensereport/ExpenseReporterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/expensereport/Expense.java" />
         <option value="$PROJECT_DIR$/src/main/java/expensereport/BreakfastExpense.java" />
         <option value="$PROJECT_DIR$/src/main/java/expensereport/DinnerExpense.java" />
         <option value="$PROJECT_DIR$/src/main/java/expensereport/CarRentalExpense.java" />
-        <option value="$PROJECT_DIR$/src/main/java/expensereport/Expense.java" />
       </list>
     </option>
   </component>
@@ -585,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517112091163</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="OCP 위반&#10;상위 모듈이 아닌 하위 모듈에서 구현하도록 해야함.  &#10;&#10;Push member down : isOverage, getName, isMeal&#10;keep absract">
+      <created>1517112555053</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1517112555053</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -607,9 +646,12 @@
     <history-entry file="ExpenseReporterTest - 2018.01.28 at 13h 00m 42s.xml">
       <configuration name="ExpenseReporterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExpenseReporterTest - 2018.01.28 at 13h 10m 50s.xml">
+      <configuration name="ExpenseReporterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3747000" />
+    <option name="totallyTimeSpent" value="3929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="0" />
@@ -633,9 +675,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -689,7 +731,8 @@
     <MESSAGE value="비지니스 로직을 분리한 클래스를 생성&#10;&#10;Delegate : ExpenseReport&#10; &#10;totalUpExpenses()&#10;totalUpExpense(expense:Expense)&#10;addExpense(expense:Expense)&#10;&#10;expenses:List&lt;Expense&gt;&#9;&#10;total:int&#10;mealExpenses:int" />
     <MESSAGE value="OCP 위반&#10;Test를 수정하여 Expense가 아니라 필요한 타입의 서브 클래스를 생성하도록 한다. &#10;&#10;Add BreakfastExpense.java&#10;    CarRentalExpense.java&#10;    DinnerExpense.java" />
     <MESSAGE value="Breakfast, CarRental, Dinner 에 대한 불필요한 Type 을 제거&#10;&#10;Change Signature : type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Breakfast, CarRental, Dinner 에 대한 불필요한 Type 을 제거&#10;&#10;Change Signature : type" />
+    <MESSAGE value="OCP 위반&#10;상위 모듈이 아닌 하위 모듈에서 구현하도록 해야함.  &#10;&#10;Push member down : isOverage, getName, isMeal&#10;keep absract" />
+    <option name="LAST_COMMIT_MESSAGE" value="OCP 위반&#10;상위 모듈이 아닌 하위 모듈에서 구현하도록 해야함.  &#10;&#10;Push member down : isOverage, getName, isMeal&#10;keep absract" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -717,7 +760,14 @@
         <state relative-caret-position="105">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
             <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,7 +785,15 @@
         <state relative-caret-position="225">
           <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
             <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -745,7 +803,15 @@
         <state relative-caret-position="255">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
             <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,49 +870,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/BreakfastExpense.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/Expense.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/DinnerExpense.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/CarRentalExpense.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
             <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/BreakfastExpense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/expensereport/MockReportPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/expensereport/ExpenseReporterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+        <state relative-caret-position="60">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/Expense.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/DinnerExpense.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

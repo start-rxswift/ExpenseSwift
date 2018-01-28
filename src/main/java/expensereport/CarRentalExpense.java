@@ -10,29 +10,16 @@ public class CarRentalExpense extends Expense {
 
     @Override
     boolean isOverage() {
-        return (type == DINNER && amount > 5000)
-                || (type == BREAKFAST && amount > 1000);
+        return false;
     }
 
     @Override
     String getName() {
-        String name = "TILT";
-        switch (type) {
-            case DINNER:
-                name = "Dinner";
-                break;
-            case BREAKFAST:
-                name = "Breakfast";
-                break;
-            case CAR_RENTAL:
-                name = "Car Rental";
-                break;
-        }
-        return name;
+        return "Car Rental";
     }
 
     @Override
     boolean isMeal() {
-        return type == BREAKFAST || type == DINNER;
+        return false;
     }
 }
