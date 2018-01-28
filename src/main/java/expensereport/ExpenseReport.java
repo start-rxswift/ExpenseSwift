@@ -18,12 +18,7 @@ public class ExpenseReport {
 
         printHeader(printer);
 
-        for (Expense expense : expenses) {
-            if (expense.type == BREAKFAST || expense.type == DINNER)
-                mealExpenses += expense.amount;
-
-            total += expense.amount;
-        }
+        totalUpExpenses();
 
         for (Expense expense : expenses) {
             String name = "TILT";
@@ -44,6 +39,15 @@ public class ExpenseReport {
                     name, expense.amount / 100.0));
         }
         printTotals(printer, total, mealExpenses);
+    }
+
+    private void totalUpExpenses() {
+        for (Expense expense : expenses) {
+            if (expense.type == BREAKFAST || expense.type == DINNER)
+                mealExpenses += expense.amount;
+
+            total += expense.amount;
+        }
     }
 
     private void printTotals(ReportPrinter printer, int total, int mealExpenses) {

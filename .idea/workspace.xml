@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f51c5b0-34c3-431c-904b-ccf6d97aafd8" name="Default" comment="@ExtractField total, mealExpenses &#10;&#10;@ExtractMethod : totalUpExpenses">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="9f51c5b0-34c3-431c-904b-ccf6d97aafd8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/expensereport/Expense$Type.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/expensereport/Expense.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/expensereport/ExpenseReport$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/expensereport/ExpenseReport.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/expensereport/ReportPrinter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/expensereport/ExpenseReportTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/expensereport/MockReportPrinter.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java" afterPath="$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,13 +30,13 @@
       <file leaf-file-name="ExpenseReport.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-164">
-              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
-                <element signature="e#1808#1809#0" expanded="true" />
-                <element signature="e#1869#1870#0" expanded="true" />
-                <element signature="e#1916#1917#0" expanded="true" />
-                <element signature="e#1953#1954#0" expanded="true" />
+                <element signature="e#1803#1804#0" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
+                <element signature="e#1911#1912#0" expanded="true" />
+                <element signature="e#1948#1949#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -117,53 +109,6 @@
             <path>
               <item name="expense" type="b2602c69:ProjectViewProjectNode" />
               <item name="expense2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="expense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expense2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expense2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="expense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expense2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expense2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="expensereport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expense2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="expense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expense2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expense2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="expensereport" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,7 +263,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517108470334</updated>
-      <workItem from="1517108471891" duration="702000" />
+      <workItem from="1517108471891" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="불필요 소스 정리">
       <created>1517108493391</created>
@@ -341,16 +286,54 @@
       <option name="project" value="LOCAL" />
       <updated>1517108851105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="불필요 소스 정리">
+      <created>1517109191538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517109191538</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1. 함수는 하나의 기능만 해야 한다.&#10;@ExtractMethod&#10;[printHeader, printTotals]">
+      <created>1517109235214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1517109235214</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1. 함수는 하나의 기능만 해야 한다.&#10;@ExtractMethod&#10;[printHeader, printTotals]">
+      <created>1517109320648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1517109320648</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2. SRP 위반 하나의 책임을 가져야 한다.&#10;for 루프 안에 비지니스 로직, 메시지 포맷팅 부분 분리">
+      <created>1517109393313</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1517109393313</updated>
+    </task>
+    <task id="LOCAL-00008" summary="3. 비지니스 로직을 함수로 변경하기 위한 사전 작업&#10;Extract Field&#10;[total, mealExpenses]">
+      <created>1517109466414</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1517109466414</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="ExpenseReportTest - 2018.01.28 at 12h 02m 02s.xml">
       <configuration name="ExpenseReportTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExpenseReportTest - 2018.01.28 at 12h 15m 48s.xml">
+      <configuration name="ExpenseReportTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="702000" />
+    <option name="totallyTimeSpent" value="1010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="0" />
@@ -406,10 +389,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="불필요 소스 정리" />
     <MESSAGE value="2. SRP 위반 하나의 책임을 가져야 한다." />
     <MESSAGE value="@ExtractField total, mealExpenses &#10;&#10;@ExtractMethod : totalUpExpenses" />
-    <option name="LAST_COMMIT_MESSAGE" value="@ExtractField total, mealExpenses &#10;&#10;@ExtractMethod : totalUpExpenses" />
+    <MESSAGE value="불필요 소스 정리" />
+    <MESSAGE value="1. 함수는 하나의 기능만 해야 한다.&#10;@ExtractMethod&#10;[printHeader, printTotals]" />
+    <MESSAGE value="2. SRP 위반 하나의 책임을 가져야 한다.&#10;for 루프 안에 비지니스 로직, 메시지 포맷팅 부분 분리" />
+    <MESSAGE value="3. 비지니스 로직을 함수로 변경하기 위한 사전 작업&#10;Extract Field&#10;[total, mealExpenses]" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. 비지니스 로직을 함수로 변경하기 위한 사전 작업&#10;Extract Field&#10;[total, mealExpenses]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -427,20 +413,20 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-            <element signature="e#1953#1954#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
           </folding>
         </state>
       </provider>
