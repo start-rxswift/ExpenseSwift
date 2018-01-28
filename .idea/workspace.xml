@@ -30,13 +30,13 @@
       <file leaf-file-name="ExpenseReport.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="205">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="e#1832#1833#0" expanded="true" />
-                <element signature="e#1893#1894#0" expanded="true" />
-                <element signature="e#1940#1941#0" expanded="true" />
-                <element signature="e#1977#1978#0" expanded="true" />
+                <element signature="e#1914#1915#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+                <element signature="e#2022#2023#0" expanded="true" />
+                <element signature="e#2059#2060#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -263,7 +263,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517108470334</updated>
-      <workItem from="1517108471891" duration="1428000" />
+      <workItem from="1517108471891" duration="1577000" />
     </task>
     <task id="LOCAL-00001" summary="불필요 소스 정리">
       <created>1517108493391</created>
@@ -349,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517109872793</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="7. field로 변환한 printer를 파라미터로 갖는 메소드들에 대해 change signature를 수행하여 파라미터를 제거한다. &#10;Change Signature : printer 제거">
+      <created>1517109929774</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1517109929774</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -364,7 +371,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1428000" />
+    <option name="totallyTimeSpent" value="1577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="0" />
@@ -430,7 +437,8 @@
     <MESSAGE value="5. total, mealExpenses는 field로 추출했으므로 파라미터로 전달할 필요가 없다. &#10;Change Signature&#10;printTotals(int total, int mealExpenses) 제거" />
     <MESSAGE value="5. 나머지 메시지 포맷팅 부분 함수로 변경&#10;Extract Method : printExpenses" />
     <MESSAGE value="6. printReport에 전달된 printer가 여러 함수에 파라미터로 전달되고 있다. &#10;이를 field로 생성하여 파라미터 개수를 줄인다.&#10;&#10;Create a Field for Parameter" />
-    <option name="LAST_COMMIT_MESSAGE" value="6. printReport에 전달된 printer가 여러 함수에 파라미터로 전달되고 있다. &#10;이를 field로 생성하여 파라미터 개수를 줄인다.&#10;&#10;Create a Field for Parameter" />
+    <MESSAGE value="7. field로 변환한 printer를 파라미터로 갖는 메소드들에 대해 change signature를 수행하여 파라미터를 제거한다. &#10;Change Signature : printer 제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="7. field로 변환한 printer를 파라미터로 갖는 메소드들에 대해 change signature를 수행하여 파라미터를 제거한다. &#10;Change Signature : printer 제거" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -455,13 +463,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="205">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#1832#1833#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1940#1941#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -17,13 +17,14 @@ public class ExpenseReport {
         this.printer = printer;
         total = 0;
         mealExpenses = 0;
-
-        printHeader();
-
         totalUpExpenses();
 
-        printExpenses();
+        printExpensesAndTotals();
+    }
 
+    private void printExpensesAndTotals() {
+        printHeader();
+        printExpenses();
         printTotals();
     }
 
