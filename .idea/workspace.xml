@@ -30,13 +30,13 @@
       <file leaf-file-name="ExpenseReport.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="191">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <element signature="e#1803#1804#0" expanded="true" />
-                <element signature="e#1864#1865#0" expanded="true" />
-                <element signature="e#1911#1912#0" expanded="true" />
-                <element signature="e#1948#1949#0" expanded="true" />
+                <element signature="e#1832#1833#0" expanded="true" />
+                <element signature="e#1893#1894#0" expanded="true" />
+                <element signature="e#1940#1941#0" expanded="true" />
+                <element signature="e#1977#1978#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -263,7 +263,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517108470334</updated>
-      <workItem from="1517108471891" duration="1010000" />
+      <workItem from="1517108471891" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="불필요 소스 정리">
       <created>1517108493391</created>
@@ -321,7 +321,35 @@
       <option name="project" value="LOCAL" />
       <updated>1517109466414</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="4. 비지니스 로직을 함수로 변경&#10;Extract Method&#10;&#10;totalUpExpenses">
+      <created>1517109518915</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1517109518916</updated>
+    </task>
+    <task id="LOCAL-00010" summary="5. total, mealExpenses는 field로 추출했으므로 파라미터로 전달할 필요가 없다. &#10;Change Signature&#10;printTotals(int total, int mealExpenses) 제거">
+      <created>1517109622464</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1517109622464</updated>
+    </task>
+    <task id="LOCAL-00011" summary="5. 나머지 메시지 포맷팅 부분 함수로 변경&#10;Extract Method : printExpenses">
+      <created>1517109767701</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1517109767701</updated>
+    </task>
+    <task id="LOCAL-00012" summary="6. printReport에 전달된 printer가 여러 함수에 파라미터로 전달되고 있다. &#10;이를 field로 생성하여 파라미터 개수를 줄인다.&#10;&#10;Create a Field for Parameter">
+      <created>1517109872793</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1517109872793</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -331,9 +359,12 @@
     <history-entry file="ExpenseReportTest - 2018.01.28 at 12h 15m 48s.xml">
       <configuration name="ExpenseReportTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExpenseReportTest - 2018.01.28 at 12h 22m 58s.xml">
+      <configuration name="ExpenseReportTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1010000" />
+    <option name="totallyTimeSpent" value="1428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="0" />
@@ -357,9 +388,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -395,7 +426,11 @@
     <MESSAGE value="1. 함수는 하나의 기능만 해야 한다.&#10;@ExtractMethod&#10;[printHeader, printTotals]" />
     <MESSAGE value="2. SRP 위반 하나의 책임을 가져야 한다.&#10;for 루프 안에 비지니스 로직, 메시지 포맷팅 부분 분리" />
     <MESSAGE value="3. 비지니스 로직을 함수로 변경하기 위한 사전 작업&#10;Extract Field&#10;[total, mealExpenses]" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. 비지니스 로직을 함수로 변경하기 위한 사전 작업&#10;Extract Field&#10;[total, mealExpenses]" />
+    <MESSAGE value="4. 비지니스 로직을 함수로 변경&#10;Extract Method&#10;&#10;totalUpExpenses" />
+    <MESSAGE value="5. total, mealExpenses는 field로 추출했으므로 파라미터로 전달할 필요가 없다. &#10;Change Signature&#10;printTotals(int total, int mealExpenses) 제거" />
+    <MESSAGE value="5. 나머지 메시지 포맷팅 부분 함수로 변경&#10;Extract Method : printExpenses" />
+    <MESSAGE value="6. printReport에 전달된 printer가 여러 함수에 파라미터로 전달되고 있다. &#10;이를 field로 생성하여 파라미터 개수를 줄인다.&#10;&#10;Create a Field for Parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. printReport에 전달된 printer가 여러 함수에 파라미터로 전달되고 있다. &#10;이를 field로 생성하여 파라미터 개수를 줄인다.&#10;&#10;Create a Field for Parameter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -420,13 +455,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/expensereport/ExpenseReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="191">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1864#1865#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
           </folding>
         </state>
       </provider>
