@@ -18,19 +18,18 @@ class ExpenseReportTest: XCTestCase {
         printer = MockReportPrinter()
     }
 
-    func printEmpty() {
+    func testPrintEmpty() {
         report.printReport(printer: printer)
 
 
         XCTAssertEqual(
             "Expenses 9/12/2002\n" +
-                "\n" +
-                "Meal expenses $0.00\n" +
-                "Total $0.00",
+            "\nMeal expenses $0.00\n" +
+            "Total $0.00",
             printer.getText())
     }
 
-    func printOneDinner() {
+    func testPrintOneDinner() {
         report.addExpense(expense: Expense(type: .dinner, amount: 1678))
         report.printReport(printer: printer)
 
@@ -44,7 +43,7 @@ class ExpenseReportTest: XCTestCase {
             printer.getText())
     }
 
-    func twoMeals() {
+    func testTwoMeals() {
         report.addExpense(expense: Expense(type: .dinner, amount: 1000))
         report.addExpense(expense: Expense(type: .breakfast, amount: 500))
         report.printReport(printer: printer)
@@ -61,7 +60,7 @@ class ExpenseReportTest: XCTestCase {
             printer.getText())
     }
 
-    func twoMealsAndCarRental() {
+    func testTwoMealsAndCarRental() {
         report.addExpense(expense: Expense(type: .dinner, amount: 1000))
         report.addExpense(expense: Expense(type: .breakfast, amount: 500))
         report.addExpense(expense: Expense(type: .carRental, amount: 50000))
@@ -79,7 +78,7 @@ class ExpenseReportTest: XCTestCase {
             printer.getText())
     }
     
-    func overages() {
+    func testOverages() {
         report.addExpense(expense: Expense(type: .breakfast, amount: 1000))
         report.addExpense(expense: Expense(type: .breakfast, amount: 1001))
         report.addExpense(expense: Expense(type: .dinner, amount: 5000))

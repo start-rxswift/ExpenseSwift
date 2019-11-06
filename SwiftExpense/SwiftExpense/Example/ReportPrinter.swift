@@ -9,5 +9,5 @@
 import Foundation
 
 protocol ReportPrinter {
-    func print(text: String)
+    func reportPrint(text: String)
 }

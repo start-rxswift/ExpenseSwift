@@ -15,6 +15,7 @@ class ExpenseReport {
         var total = 0
         var mealExpenses = 0
 
+        printHeader(printer: printer)
         for expense in expenses {
 
             if expense.type == .breakfast || expense.type == .dinner {
@@ -31,21 +32,25 @@ class ExpenseReport {
             case .carRental:
                 name = "Car Rental"
             }
-
-            printer.print(
-                text: String(format: "%s\t%s\t$%.02f",
+            
+            printer.reportPrint(
+                text: String(format: "%@\t%@\t$%.02f\n",
                     ((expense.type == .dinner && expense.amount > 5000) ||
                             (expense.type == .breakfast && expense.amount > 1000)) ? "X" : " ", name, Double(expense.amount) / 100.0))
             
             total += expense.amount
         }
         
-        printer.print(text: String(format: "\nMeal expenses $%.02f", Double(mealExpenses) / 100.0))
-        printer.print(text: String(format: "\nTotal $%.02f", Double(total) / 100.0))
+        printer.reportPrint(text: String(format: "\nMeal expenses $%.02f", Double(mealExpenses) / 100.0))
+        printer.reportPrint(text: String(format: "\nTotal $%.02f", Double(total) / 100.0))
     }
     
     func addExpense(expense: Expense) {
         expenses.append(expense)
+    }
+        
+    private func printHeader(printer: ReportPrinter) {
+        printer.reportPrint(text: "Expenses \(getDate())\n")
     }
     
     private func getDate() -> String {

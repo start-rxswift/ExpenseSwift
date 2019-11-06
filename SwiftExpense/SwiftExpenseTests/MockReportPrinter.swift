@@ -12,7 +12,7 @@ class MockReportPrinter: ReportPrinter {
     
     private var printedText: String = ""
 
-    func print(text: String) {
+    func reportPrint(text: String) {
         printedText += text
     }
     
