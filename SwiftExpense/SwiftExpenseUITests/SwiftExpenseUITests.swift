@@ -1,6 +1,6 @@
 //
-//  SwiftUITests.swift
-//  SwiftUITests
+//  SwiftExpenseUITests.swift
+//  SwiftExpenseUITests
 //
 //  Created by tskim on 2019/11/06.
 //  Copyright © 2019 assin. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class SwiftUITests: XCTestCase {
+class SwiftExpenseUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

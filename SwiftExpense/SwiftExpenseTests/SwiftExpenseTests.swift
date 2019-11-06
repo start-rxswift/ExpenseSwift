@@ -1,15 +1,15 @@
 //
-//  SwiftTests.swift
-//  SwiftTests
+//  SwiftExpenseTests.swift
+//  SwiftExpenseTests
 //
 //  Created by tskim on 2019/11/06.
 //  Copyright © 2019 assin. All rights reserved.
 //
 
 import XCTest
-@testable import Swift
+@testable import SwiftExpense
 
-class SwiftTests: XCTestCase {
+class SwiftExpenseTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
