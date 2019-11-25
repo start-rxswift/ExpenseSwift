@@ -14,7 +14,6 @@
 		BDD8FB4E2372650900956C38 /* SwiftExpense.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDD8FB4C2372650900956C38 /* SwiftExpense.xcdatamodeld */; };
 		BDD8FB502372650A00956C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD8FB4F2372650A00956C38 /* Assets.xcassets */; };
 		BDD8FB532372650A00956C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD8FB512372650A00956C38 /* LaunchScreen.storyboard */; };
-		BDD8FB5E2372650B00956C38 /* SwiftExpenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8FB5D2372650B00956C38 /* SwiftExpenseTests.swift */; };
 		BDD8FB782372652900956C38 /* ExpenseReportTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8FB762372652800956C38 /* ExpenseReportTest.swift */; };
 		BDD8FB792372652900956C38 /* MockReportPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8FB772372652800956C38 /* MockReportPrinter.swift */; };
 		BDD8FB7E2372653C00956C38 /* ReportPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8FB7B2372653C00956C38 /* ReportPrinter.swift */; };
@@ -43,7 +42,6 @@
 		BDD8FB522372650A00956C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD8FB542372650A00956C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD8FB592372650B00956C38 /* SwiftExpenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExpenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDD8FB5D2372650B00956C38 /* SwiftExpenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExpenseTests.swift; sourceTree = "<group>"; };
 		BDD8FB5F2372650B00956C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD8FB762372652800956C38 /* ExpenseReportTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseReportTest.swift; sourceTree = "<group>"; };
 		BDD8FB772372652800956C38 /* MockReportPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockReportPrinter.swift; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 			children = (
 				BDD8FB762372652800956C38 /* ExpenseReportTest.swift */,
 				BDD8FB772372652800956C38 /* MockReportPrinter.swift */,
-				BDD8FB5D2372650B00956C38 /* SwiftExpenseTests.swift */,
 				BDD8FB5F2372650B00956C38 /* Info.plist */,
 			);
 			path = SwiftExpenseTests;
@@ -241,7 +238,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD8FB782372652900956C38 /* ExpenseReportTest.swift in Sources */,
-				BDD8FB5E2372650B00956C38 /* SwiftExpenseTests.swift in Sources */,
 				BDD8FB792372652900956C38 /* MockReportPrinter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

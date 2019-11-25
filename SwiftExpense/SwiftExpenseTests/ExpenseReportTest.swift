@@ -29,6 +29,7 @@ class ExpenseReportTest: XCTestCase {
             printer.getText())
     }
 
+
     func testPrintOneDinner() {
         report.addExpense(expense: Expense(type: .dinner, amount: 1678))
         report.printReport(printer: printer)

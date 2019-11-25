@@ -9,13 +9,13 @@
 @testable import SwiftExpense
 
 class MockReportPrinter: ReportPrinter {
-    
+
     private var printedText: String = ""
 
-    func reportPrint(text: String) {
+    func print(text: String) {
         printedText += text
     }
-    
+
     func getText() -> String {
         return printedText
     }
